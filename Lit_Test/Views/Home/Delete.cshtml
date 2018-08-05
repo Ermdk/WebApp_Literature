@@ -1,0 +1,31 @@
+﻿@model Lit_Test.Models.Book
+@{
+     ViewBag.Title = "Удаление книги";
+}
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>Название</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>Производитель</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+
+        <dt>Цена</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Publishing_House)
+        </dd>
+    </dl>
+
+    <div>
+        <form asp-controller="Home" asp-action="Delete" method="post">
+            <div class="form-group">
+                <input type="submit" class="btn btn-default" value="Удалить" />
+            </div>
+        </form>
+    </div>
+</div>

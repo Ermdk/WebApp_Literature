@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\EmptyHTMLFile.html" />
+    <None Remove="Views\Home\EmptyCSSFile.css" />
+    <None Remove="Views\Home\Privacy.cshtml — копия" />
+    <None Remove="Views\Home\Index.cshtml — копия" />
+    <None Remove="Views\Home\About.cshtml — копия" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Contact copy.cshtml" />
+    <Content Remove="Views\Home\About copy.cshtml" />
+    <Content Remove="Views\Home\Delete.cshtml" />
+    <Content Remove="Views\Home\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Home\Create.cshtml" />
+    <None Include="Views\Home\Edit.cshtml" />
+    <None Include="Views\Home\Delete.cshtml" />
+    <None Include="Views\Home\Details.cshtml" />
+  </ItemGroup>
+</Project>

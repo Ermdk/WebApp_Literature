@@ -1,0 +1,14 @@
+﻿@model Lit_Test.Models.Book
+@{
+    ViewBag.Title = Model.Name;
+}
+<h2>Книга @Model.Name</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Автор</dt>
+        <dd>@Model.Author</dd>
+
+        <dt>Издательство</dt>
+        <dd>@Model.Publishing_House</dd>
+    </dl>
+</div>

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{1FD41394-F49E-4FC9-9737-3DD5A844093D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lit_Test/Models/Book.cs">
+    <Files>
+      <File FileName="Lit_Test/Models/Book.cs" Line="8" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Lit__Test PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
